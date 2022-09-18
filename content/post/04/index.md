@@ -3,7 +3,7 @@ title: "[無料]AndroidからPCにミラーリング！"
 date: 2022-09-05T20:00:42+09:00
 description: "AndroidからPCにミラーリングできるツール「scrsndcpy」をレビューしていこうと思います!"
 keywords: ["Windows", "Android","無料"]
-image: thum.jpeg
+image: thum.webp
 hidden: false
 comments: true
 ---

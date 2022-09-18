@@ -3,7 +3,7 @@ title: "[無料]データ復元ソフト使ってみた！"
 date: 2022-09-01T22:40:12+09:00
 description: "ファイルを間違えて消してしまうことってありますよね...そういうときに使える便利ソフトを紹介します。"
 tags: ["ファイル復元", "無料", "復旧"]
-image: thum.jpeg
+image: thum.webp
 hidden: false
 comments: true
 draft: 
