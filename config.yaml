@@ -151,7 +151,7 @@ params:
     opengraph:
         twitter:
             # Your Twitter username
-            site: hatimalu_html
+            site: hatimalu_net
 
             # Available values: summary, summary_large_image
             card: summary_large_image
