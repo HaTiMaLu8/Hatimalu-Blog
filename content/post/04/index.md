@@ -1,14 +1,16 @@
 ---
 title: "[無料]AndroidからPCにミラーリング！"
-date: 2022-09-05T20:00:42+09:00
-description: "AndroidからPCにミラーリングできるツール「scrsndcpy」をレビューしていこうと思います!"
-keywords: ["Windows", "Android","無料"]
+date: 2022-09-05T20:00:42.000+09:00
+description: AndroidからPCにミラーリングできるツール「scrsndcpy」をレビューしていこうと思います!
+keywords:
+- Windows
+- Android
+- 無料
 image: thum.webp
 hidden: false
 comments: true
+
 ---
-
-
 ## スマホの画面小さいけれど..
 
 スマホの画面ちっさいけど、タブレット持ち歩くのもめんどくさいし、、pcならあるんだけーど.....って思ったことありませんか？
@@ -18,11 +20,9 @@ comments: true
 
 これを解決してくれるフリーソフトがあります！！
 
-
-
 ## scrsndcpy
 
-scrsndcpyというソフトはオープンソースのAndroidの画面をPCにうつす　"scrcpy"　
+scrsndcpyというソフトはオープンソースのAndroidの画面をPCにうつす　"scrcpy"
 
 そして音をPC側で流す　"sndcpy"　というものを合わせ、高機能にしたいわば上位互換のソフトとなります。
 
@@ -32,29 +32,26 @@ scrsndcpyというソフトはオープンソースのAndroidの画面をPCに�
 
 このソフトきめ細やかにミラーリングの設定ができるためほんとに便利です。
 
-
-
 ## ダウンロード・インストール
 
 まず[こちら](https://github.com/amate/scrsndcpy/releases/)から最新のzipをダウンロードしてきます。
 
 このソフトはインストーラーが存在しないのでそのまま解凍して、解凍されたフォルダの中にある"scrsndcpy.exe"を起動させます。
 
-自分はいつもこういうインストーラーないソフトの場合、programfilesのところに入れてshortcutをスタートにはっつけたりしています〜
-
-
+自分はいつもこういうインストーラーのないソフトの場合、programfilesのところに入れてshortcutをスタートにはっつけたりしています〜
 
 ## やり方
 
 ### Android側
+
 まず、Android側でadbデバッグをオンにしておく必要があります。
 
-設定→デバイス情報より、ビルド番号を何度かタップしていくと開発者モードがオンになるので
-そこから開発者向けオプションのUSBデバッグをオンにします。
-あとからワイヤレスミラーリングしたい方はワイヤレスデバッグもオンにしておきます。
-![debug-setting](debug-setting.png)
+設定→デバイス情報より、ビルド番号を何度かタップしていくと開発者モードがオンなるので そこから開発者向けオプションのUSBデバッグをオンにします。
+
+あとからワイヤレスミラーリングしたい方はワイヤレスデバッグもオンにしておきます。 ![debug-setting](debug-setting.png)
 
 ### Windows側
+
 まず、ソフトを起動させたら、USBでandroid端末とPCを有線接続します。
 
 そしたらAndoroid側にadbデバッグの承認が出るので許可します。
@@ -65,8 +62,7 @@ scrsndcpyというソフトはオープンソースのAndroidの画面をPCに�
 
 ![scrsndcpy](scrsndcpy.png)
 
-configで設定をいじることも可能です
-
+configで設定をいじることも可能です！
 
 ## まとめ
 
@@ -79,4 +75,3 @@ configで設定をいじることも可能です
 ぜひ、この「scrsndcpy」使ってみては？
 
 ご覧いただきありがとうございました！
-
